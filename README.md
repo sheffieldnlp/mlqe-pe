@@ -1,5 +1,5 @@
 # mlqe-pe
-Multilingual Quality Estimation and Automatic Post-editing Dataset
+Multilingual Quality Estimation and Automatic Post-editing Dataset. This is an updated version of the <a href="https://github.com/facebookresearch/mlqe">MLQE dataset</a> to include post-editing data as well. Please refer to the MLQE repo for the NMT models that generated the data.
 
 ## Citation
 
