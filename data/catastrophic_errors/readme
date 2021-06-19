@@ -1,0 +1,22 @@
+The content of each training/dev tsv file is:
+ID  source-sentence target-sentence 3-scores  aggregated-score
+
+where 
+-- ID: identifier of sentence pair
+
+-- source-sentence: input to MT system
+
+-- target-sentence: machine translated sentence
+
+-- 3-scores are given by 3 annotators to indicate 
+--- 0: no catastrophic error
+--- 1: catastrophic error
+--- 2/3: source or target sentence is not understandable
+
+-- aggregated-scores takes the majority vote (ignoring cases where the majority is 2 or 3) such that 
+--- NOT means no catastrophic error in the sentence (i.e. category 0 is used by at least 2 out of 3 annotators)
+--- ERR means at least one catastrophic error in the sentence (i.e. category 1 is used by at least 2 out of 3 annotators)
+
+
+The content of each blind test tsv file is:
+ID  source-sentence target-sentence 
