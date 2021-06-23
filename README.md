@@ -7,9 +7,20 @@ If you use this data in your work, please cite:
 
 ```bibtex
 @article{fomicheva2020mlqepe,
-      title={{MLQE-PE}: A Multilingual Quality Estimation and Post-Editing Dataset}, 
-      author={Marina Fomicheva and Shuo Sun and Erick Fonseca and Fr\'ed\'eric Blain and Vishrav Chaudhary and Francisco Guzm\'an and Nina Lopatina and Lucia Specia and Andr\'e F.~T.~Martins},
-      year={2020},
-      journal={arXiv preprint arXiv:2010.04480}
+    title={{MLQE-PE}: A Multilingual Quality Estimation and Post-Editing Dataset}, 
+    author={Marina Fomicheva and Shuo Sun and Erick Fonseca and Fr\'ed\'eric Blain and Vishrav Chaudhary and Francisco Guzm\'an and Nina Lopatina and Lucia Specia and Andr\'e F.~T.~Martins},
+    year={2020},
+    journal={arXiv preprint arXiv:2010.04480}
+}
+```
+
+```bibtex
+@article{tacl2020,
+    title = {Unsupervised Quality Estimation for Neural Machine Translation},
+    author = {Fomicheva, Marina and Sun, Shuo and Yankovskaya, Lisa and Blain, Frédéric and Guzmán, Francisco and Fishel, Mark and Aletras, Nikolaos and Chaudhary, Vishrav and Specia, Lucia},
+    journal = {Transactions of the Association for Computational Linguistics},
+    volume = {8},
+    pages = {539-555},
+    year = {2020}
 }
 ```
