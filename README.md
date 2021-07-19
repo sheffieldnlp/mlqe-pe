@@ -1,5 +1,10 @@
 # mlqe-pe
-Multilingual Quality Estimation and Automatic Post-editing Dataset. This is an updated version of the <a href="https://github.com/facebookresearch/mlqe">MLQE dataset</a> to include post-editing data, as well Ru-En data. Please refer to the MLQE repo for the NMT models that generated the data.
+Multilingual Quality Estimation and Automatic Post-editing Dataset.
+This is an updated version of the <a href="https://github.com/facebookresearch/mlqe">MLQE dataset</a> to include 
+post-editing data, as well Ru-En data. Please refer to the MLQE repo for the NMT models that generated the data.
+The multilingual NMT models used to generate translations for the zero-shot language pairs can be found here:
+<a href="https://github.com/pytorch/fairseq/tree/master/examples/multilingual#mbart50-models">mBART50</a> (many-to-one for Ps-En and Km-En, 
+and one-to-many for En-Cs and En-Ja).
 
 ## Citation
 
